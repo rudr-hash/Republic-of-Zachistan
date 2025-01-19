@@ -150,7 +150,7 @@ def main():
         st.subheader("Cost Analysis Details")
         st.info(f"""
         - Base cost difference: ${cost_difference:,.2f}
-        - Cost per life saved at 100% adoption: ${baseline_cost_per_life:.2f}  # This should show 1.34
+        - Cost per life saved at 100% adoption: ${baseline_cost_per_life:.2f}
         - Total potential lives saved: 14,227
         """)
 
